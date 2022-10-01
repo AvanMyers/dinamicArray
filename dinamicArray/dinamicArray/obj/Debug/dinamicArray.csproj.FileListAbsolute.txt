@@ -1,0 +1,8 @@
+C:\Users\Xiaomi\source\repos\dinamicArray\dinamicArray\bin\Debug\dinamicArray.exe.config
+C:\Users\Xiaomi\source\repos\dinamicArray\dinamicArray\bin\Debug\dinamicArray.exe
+C:\Users\Xiaomi\source\repos\dinamicArray\dinamicArray\bin\Debug\dinamicArray.pdb
+C:\Users\Xiaomi\source\repos\dinamicArray\dinamicArray\obj\Debug\dinamicArray.csproj.AssemblyReference.cache
+C:\Users\Xiaomi\source\repos\dinamicArray\dinamicArray\obj\Debug\dinamicArray.csproj.SuggestedBindingRedirects.cache
+C:\Users\Xiaomi\source\repos\dinamicArray\dinamicArray\obj\Debug\dinamicArray.csproj.CoreCompileInputs.cache
+C:\Users\Xiaomi\source\repos\dinamicArray\dinamicArray\obj\Debug\dinamicArray.exe
+C:\Users\Xiaomi\source\repos\dinamicArray\dinamicArray\obj\Debug\dinamicArray.pdb
