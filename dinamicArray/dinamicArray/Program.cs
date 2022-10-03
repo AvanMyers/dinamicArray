@@ -12,18 +12,21 @@ namespace dinamicArray
         {
             int arrayMax = 0;
             int arraySum = 0;
-            bool endProgram = true;
+            bool isWork = true;
             int[] array = new int[0];
+            const string CommandNumber = "number";
+            const string CommandSum = "sum";
+            const string CommandExit = "exit";
 
-
-            while (endProgram)
+            while (isWork)
             {
                 Console.WriteLine();
                 Console.Write("Введите number что бы добавить число для сложение\n Введите sum - для сложения вписанных чисел \n" +
                 "Введите exit - для выхода из программы:");
+
                 switch (Console.ReadLine())
                 {
-                    case ("number"):
+                    case (CommandNumber):
                         Console.Write("Введите число которое хотите добавить:");
                         int[] tempArray = new int[array.Length + 1];
                         for (int i = 0; i < array.Length; i++)
@@ -33,7 +36,7 @@ namespace dinamicArray
                         tempArray[tempArray.Length - 1] = Convert.ToInt32(Console.ReadLine());
                         array = tempArray;
                         break;
-                    case ("sum"):
+                    case (CommandSum):
                         arraySum = 0;
                         for (int i = 0; i < array.Length; i++)
                         {
@@ -48,10 +51,9 @@ namespace dinamicArray
                                 Console.WriteLine(" = " + arraySum);
                             }
                         }
-
                         break;
-                    case ("exit"):
-                        endProgram = false;
+                    case (CommandExit):
+                        isWork = false;
                         break;
                 }
             }
